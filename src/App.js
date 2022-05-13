@@ -41,9 +41,7 @@ const meusItens = ['React', 'Vue', 'Angular']
       <h1>Renderização de Listas</h1>
       <OutraLista itens={meusItens}/>
       <OutraLista itens={[]}/>
-      <h1>State Lift</h1>
-      <SeuNome setNome={setNome} />
-      {nome}
+      <h1>State Lift</h1>      
     </div>
   );
 }
