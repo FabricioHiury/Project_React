@@ -1,4 +1,5 @@
 import './App.css';
+import { useState } from 'react';
 import HelloWorld from './Components/HelloWorld';
 import SayMyName from './Components/SayMyName';
 import Pessoa from './Components/Pessoa';
@@ -12,8 +13,9 @@ import OutraLista from './Components/OutraLista';
 function App() {
   const name = 'Fabrício'
   const newName = name.toUpperCase()
+  const[nome, setNome] = useState()
   function sum(a, b){
-    return a + b
+    return a + b    
   }
 
 const meusItens = ['React', 'Vue', 'Angular']
@@ -38,6 +40,10 @@ const meusItens = ['React', 'Vue', 'Angular']
       <Condicional />
       <h1>Renderização de Listas</h1>
       <OutraLista itens={meusItens}/>
+      <OutraLista itens={[]}/>
+      <h1>State Lift</h1>
+      <SeuNome setNome={setNome} />
+      {nome}
     </div>
   );
 }
