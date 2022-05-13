@@ -1,5 +1,4 @@
 import './App.css';
-import { useState } from 'react';
 import HelloWorld from './Components/HelloWorld';
 import SayMyName from './Components/SayMyName';
 import Pessoa from './Components/Pessoa';
