@@ -11,8 +11,7 @@ import OutraLista from './Components/OutraLista';
 
 function App() {
   const name = 'Fabrício'
-  const newName = name.toUpperCase()
-  const[nome, setNome] = useState()
+  const newName = name.toUpperCase()  
   function sum(a, b){
     return a + b    
   }
@@ -39,8 +38,7 @@ const meusItens = ['React', 'Vue', 'Angular']
       <Condicional />
       <h1>Renderização de Listas</h1>
       <OutraLista itens={meusItens}/>
-      <OutraLista itens={[]}/>
-      <h1>State Lift</h1>      
+      <OutraLista itens={[]}/>         
     </div>
   );
 }
