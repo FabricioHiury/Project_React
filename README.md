@@ -1,3 +1,6 @@
+# Project made only for the purpose of testing the React.js tools.
+Technologies used in the project: JSX, Props, CSS Modules, DOM, Fragments, onClick, onChange, useState, Conditional Rendering (if), State Lift, React Router.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
